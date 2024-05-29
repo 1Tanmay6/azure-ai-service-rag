@@ -55,9 +55,3 @@ class GroqLLMInteraction():
                 'context': [{'page_content': doc.page_content, 'metadata': doc.metadata}  for doc in response['context']]
             }
         return {'error': UserWarning}
-
-# 'gemma-7b-it'
-
-if __name__ == '__main__':
-    llm = GroqLLMInteraction('gemma-7b-it', False, '/home/tanmaypatil/Documents/Vanquisher_Tech/azure-ai-service-rag/docs/')
-    pprint(llm.ask_llm('why is SVD used?'))

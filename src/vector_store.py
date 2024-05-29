@@ -43,7 +43,3 @@ class VectorStore():
         )
 
         return vector_store
-
-# if __name__ == '__main__':
-    # vector_store = VectorStore(False, '/home/tanmaypatil/Documents/Vanquisher_Tech/azure-ai-service-rag/docs/')
-    # print(vector_store)
