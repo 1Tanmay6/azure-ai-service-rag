@@ -1,0 +1,5 @@
+.venv
+.env
+/docs
+./__py_cache__/*
+./src/__py_cache__/*

@@ -1,0 +1,11 @@
+azure-search-documents
+azure-identity
+flask
+langchain
+langchainhub
+langchain-community
+langchain-groq
+python-dotenv
+pypdf
+streamlit
+transformers
